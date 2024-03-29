@@ -1,0 +1,72 @@
+body {
+    background-color: #267365;
+}
+
+
+.display {
+    width: 217px;
+    height: 40px;
+}
+
+.botao-op,
+.botao-n,
+.botao-ponto,
+.botao-limpar,
+.botao-onOf {
+    width: 50px;
+    height: 40px;
+}
+
+.botao-igual {
+    width: 100px;
+    height: 40px;
+}
+
+.botao-op,
+.botao-ponto,
+.botao-limpar {
+    background-color: #F28705;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.botao-onOf {
+    background-color: rgb(200, 44, 44);
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.botao-n {
+    background-color: #267365;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+table {
+    margin: 40px;
+}
+
+td {
+    padding-bottom: 10px;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #F28705;
+    border-radius: 8px;
+    width: 300px;
+    height: 390px;
+    align-items: center;
+    margin: auto;
+
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Reddit Mono';
+    color: #f2f2f2;
+
+}
